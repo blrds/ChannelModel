@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Общий стиль для TextBlock -->
+    <Style TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="Foreground" Value="#333333" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Margin" Value="5,2" />
+    </Style>
+
+    <!-- Акцентированный стиль для заголовков -->
+    <Style x:Key="HeaderTextBlock" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#FF6200EE" />
+        <Setter Property="Margin" Value="10,5" />
+    </Style>
+
+    <!-- Акцентированный стиль для подсказок -->
+    <Style x:Key="HintTextBlock" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Foreground" Value="#888888" />
+        <Setter Property="Margin" Value="5,2" />
+    </Style>
+
+</ResourceDictionary>
